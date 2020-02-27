@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container > li {
+    padding: 5px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 30%;
+    min-width: 60%;
+    margin-top: 5rem;
+}
+.grid-container > li{
+    background:#3498db;
+    border: 1px solid black;
+    list-style: none;
+    text-align: center;
+}
+.nameDisplay{
+    display: flex;
+    background: #333;
+    width: 60%;
+    margin: 20px;
+}
+.nameDisplay > p {
+    margin: 0 40px;
+    color: #fff;
+    padding: 10px;
+
+}
+.hide{
+    display: none;
+}
